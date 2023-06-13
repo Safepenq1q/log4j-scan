@@ -397,7 +397,7 @@ def main():
                     continue
                 urls.append(i)
 
-    dns_callback_host = ""
+    dns_callback_host = "bkitnr.ceye.io"
     if args.custom_dns_callback_host:
         cprint(f"[•] Using custom DNS Callback host [{args.custom_dns_callback_host}]. No verification will be done after sending fuzz requests.")
         dns_callback_host = args.custom_dns_callback_host
